@@ -1,0 +1,68 @@
+h1.site-title {
+	margin: 0;
+	text-align: center;
+
+	a {
+		color: #fff;
+		font-size: 4rem;
+		font-weight: 700;
+		letter-spacing: 3px;
+		margin: 0;
+		padding: 3em 0 1em;
+		text-decoration: none;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+		text-transform: none;
+	}
+}
+
+p.site-description {
+	color: #fff;
+	font-size: 1.25rem;
+	font-weight: 400;
+	letter-spacing: 3px;
+	margin: 0;
+	padding: .5rem 0 2rem;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+}
+
+.main-navigation {
+	left: 0px;
+	margin-bottom: 2rem;
+	position: static;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 999;
+}
+
+.menu-main-menu-container {
+	background-color: #fff;
+
+	.menu {
+		align-items: center;
+		display: flex;
+		list-style: none;
+		justify-content: center;
+		margin: 0 auto;
+		padding: 0;
+
+		.menu-item {
+			padding: 2rem;
+
+			a {
+				color: #777;
+				font-size: 1.25rem;
+				font-weight: 400;
+				text-decoration: none;
+				text-transform: uppercase;
+
+				&:hover {
+					color: #333;
+				}
+			}
+		}
+	}
+}

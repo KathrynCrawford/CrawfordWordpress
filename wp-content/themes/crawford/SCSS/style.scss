@@ -1,0 +1,17 @@
+//Normalize
+@import 'config/normalize';
+
+//Mixins
+@import 'config/mixins';
+
+//Vendor
+@import 'vendor/slick';
+
+//Globals
+@import 'config/global';
+
+//Header
+@import 'global/header';
+
+//Parts
+@import 'parts/slider';
