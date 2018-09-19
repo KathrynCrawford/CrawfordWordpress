@@ -19,7 +19,7 @@ get_header(); ?>
 
 		<section>
 
-			<div class="hero-slider">
+			<div class="hero-slider col">
 
 				<div><img src="<?php the_field('image_one'); ?>" /></div>
 
@@ -31,20 +31,16 @@ get_header(); ?>
 
 			</div>
 
-		</section>
-
-		<section>
-
-			<hr>
-			<h2><?php the_field('intro_header'); ?></h2>
-			<hr>
+			<div class="col">
+				<h2><?php the_field('intro_header'); ?></h2>
+			</div>
 
 			<div class="row">
-				<div class="one_third">
+				<div class="one_fourth col">
 					<img src="<?php the_field('intro_image'); ?>" />
 				</div>
 
-				<div class="two_third last">
+				<div class="three_fourths last col">
 					<?php the_field('intro_content'); ?>
 				</div>
 			</div>
@@ -53,11 +49,13 @@ get_header(); ?>
 
 		<section>
 
-			<hr>
-			<h2><?php the_field('news_header'); ?></h2>
-			<hr>
+			<div class="col">
+				<h2><?php the_field('news_header'); ?></h2>
+			</div>
 
-			<?php the_field('news_content'); ?>
+			<div class="col">
+				<?php the_field('news_content'); ?>
+			</div>
 
 		</section>
 
